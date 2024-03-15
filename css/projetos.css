@@ -27,8 +27,8 @@
   width: 30px;
   height: 5px;
   left: -50px;
-  top: 12px;
-  background: var(--p1);
+  top: 18px;
+  background: var(--gradiente);
 }
 
 .projeto-item {
@@ -87,4 +87,13 @@
   background: var(--w);
   border-radius: 4px;
   padding: 4px 6px;
+}
+
+@media (max-width: 600px) {
+  .projetos {
+    padding-bottom: 0px;
+  }
+  .projeto-item {
+    grid-template-columns: 1fr;
+  }
 }

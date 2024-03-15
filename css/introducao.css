@@ -12,3 +12,13 @@
 .introducao-texto {
   margin-bottom: 40px;
 }
+
+@media (max-width: 600px) {
+  .introducao-texto {
+    margin-bottom: 20px;
+  }
+  .introducao a {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -61,10 +61,9 @@
 }
 
 .titulo-projeto-nome {
-  color: #000;
+  color: var(--b);
   font-family: "Fira Sans";
-  font-size: 36px;
-  line-height: 32px;
+  font-size: 2.25rem;
 }
 
 .projeto-texto {
@@ -81,7 +80,7 @@
   font-family: "Fira Sans";
   font-size: 1rem;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 2;
 }
 
 .footer-info {
