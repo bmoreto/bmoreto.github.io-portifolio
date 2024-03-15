@@ -1,0 +1,121 @@
+:root {
+  --w: #ffffff;
+  --b: #000000;
+  --c1: #f5f5f5;
+  --c2: #f0f0f0;
+  --c10: #525252;
+  --c11: #8f8f8f;
+  --c12: #292929;
+  --c13: #141414;
+  --p1: #8844ee;
+  --p2: #b07dfb;
+  --gradiente: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.titulo {
+  color: var(--p1);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.subtitulo {
+  color: var(--c11);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 3rem;
+}
+
+.menu-lista a {
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.introducao-texto {
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 2.25rem;
+  line-height: 1.4;
+}
+
+.titulo-section {
+  font-family: "Playfair Display";
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.projetos .titulo-section {
+  color: var(--p1, #55265c);
+}
+
+.texto-section {
+  color: var(--c13, #141414);
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+}
+
+.titulo-projeto-nome {
+  color: #000;
+  font-family: "Fira Sans";
+  font-size: 36px;
+  line-height: 32px;
+}
+
+.projeto-texto {
+  color: var(--c13);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.projeto-habilidades {
+  color: var(--c10, #525252);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.footer-info {
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.footer-contatos a {
+  color: var(--w);
+  font-family: "Fira Sans";
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 3rem;
+  }
+  .subtitulo {
+    font-size: 1.5rem;
+  }
+  .menu-lista a {
+    font-size: 1rem;
+  }
+  .introducao-texto {
+    font-size: 1.5rem;
+  }
+  .titulo-section {
+    font-size: 3rem;
+  }
+  .texto-section {
+    font-size: 1.125rem;
+  }
+}

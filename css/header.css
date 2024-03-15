@@ -1,0 +1,28 @@
+.header-bg {
+  background: var(--c1);
+}
+
+.header {
+  text-align: center;
+}
+
+.header .subtitulo {
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu li {
+  background: var(--p1);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.menu li:hover {
+  background: var(--p2);
+}
