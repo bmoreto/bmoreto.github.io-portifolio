@@ -49,12 +49,24 @@
   gap: 10px;
 }
 
-.projeto-bg dd {
+.js-accordion .projeto-bg dd {
   display: none;
 }
 
-.projeto-bg dd.ativa {
+.js-accordion .projeto-bg dd.ativo {
   display: grid;
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 100%;
+  }
 }
 
 .projeto-galeria {
