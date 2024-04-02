@@ -25,4 +25,5 @@
 
 .menu li:hover {
   background: var(--p2);
+  transition: 0.3s;
 }
