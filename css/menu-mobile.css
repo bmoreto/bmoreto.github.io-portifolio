@@ -1,0 +1,45 @@
+[data-menu="button"]{
+  display: none;
+}
+
+@media(max-width: 680px){
+  [data-menu="button"]{
+  display: flex;
+  background: var(--p1);
+  border-radius: 4px;
+  padding: 20px; 
+  cursor: pointer;
+  color: var(--w);
+  align-items: center;
+  position: relative;
+  z-index: 300;
+  }
+  [data-menu="button"]::before{
+  content: '';
+  display: inline-block;
+  height: 4px;
+  width: 24px;
+  background: white;
+  box-shadow: 0 8px #fff, 0 -8px #fff;
+  margin-right: 4px;
+  transition: transform .3s;
+  }
+  [data-menu="button"].active::before{
+  transform: rotate(90deg);
+  }
+  [data-menu="list"]{
+  display: none;
+  background: var(--p1);
+  border-radius: 4px;
+  position: absolute;
+  width: 160px;
+  right: 0;
+  z-index: 200;
+  padding: 20px 0 20px 0; 
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,.1);
+  z-index: 200;
+  }
+  [data-menu="list"].active{
+   display: block;
+  }
+}

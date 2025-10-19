@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Beatriz Moreto – Front-End Developer & UX/UI Designer based in Europe.">
+  <meta name="keywords" content="Front-End Developer, UX/UI, JavaScript, HTML, CSS">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <title>Beatriz Moreto - Front End Developer & UX/UI Design </title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header container">
+      <div class="header-info">
+        <h1 class="title"> Beatriz Moreto </h1>
+        <p class="subtitle">Front End Developer & UX/UI Design</p>
+      </div>
+      <nav class="menu">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu"></button>
+        <ul class="menu-list" data-menu="list" id="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="/bm cv it.docx" target="_blank">Download resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro-bg" id="about">
+      <div class="intro container">
+        <p>
+          Hello, I’m Beatriz<br>
+          I create clean, responsive, and user-focused web experiences.<br>
+          Currently open to new projects and collaborations.
+        </p>
+      </div>
+
+      <div class="galeria">
+        <ul class="custom-controls">
+          <li><img src="./img/projetos/animais-fantasticos.png" alt="animais fantasticos home"></li>
+          <li><img src="./img/projetos/forest.jpg" alt="Forest home"></li>
+          <li><img src="./img/projetos/bikcraft.png" alt="Bikcraft home"></li>
+          <li><img src="./img/projetos/gta.png" alt="GTA home"></li>
+          <li><img src="./img/projetos/pokemon.png" alt="Pokémon home"></li>
+          <li><img src="./img/projetos/flexblog.png" alt="FlexBlog home"></li>
+          <li><img src="./img/projetos/wildbeast.png" alt="Wildbeast home"></li>
+          <li><img src="./img/projetos/agencia xyz.png" alt="Agência XYZ home"></li>
+          <li><img src="./img/projetos/lobo.png" alt="Lobo home"></li>
+        </ul>
+        <div class="slide-wrapper">
+          <ul class="slide">
+            <li><img src="./img/projetos/animais-fantasticos.png" alt="animais fantasticos home"></li>
+            <li><img src="./img/projetos/forest.jpg" alt="Forest home"></li>
+            <li><img src="./img/projetos/bikcraft.png" alt="Bikcraft home"></li>
+            <li><img src="./img/projetos/gta.png" alt="GTA home"></li>
+            <li><img src="./img/projetos/pokemon.png" alt="Pokémon home"></li>
+            <li><img src="./img/projetos/flexblog.png" alt="FlexBlog home"></li>
+            <li><img src="./img/projetos/wildbeast.png" alt="Wildbeast home"></li>
+            <li><img src="./img/projetos/agencia xyz.png" alt="Agência XYZ home"></li>
+            <li><img src="./img/projetos/lobo.png" alt="Lobo home"></li>
+          </ul>
+        </div>
+        <div class="arrow-nav">
+          <button class="prev"></button>
+          <button class="next"></button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="container projects accordion" id="projects">
+      <h2 class="title-section">Projects</h2>
+      <p class="project-intro">I create <strong>UX/UI design</strong> and <strong>front-end</strong> projects using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> — turning ideas into responsive and interactive web experiences.</p>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title aria-expanded=" false" aria-controls="project-animais">Animais Fantásticos</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-animais-fantasticos" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-animais-fantasticos/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-animais" class="accordion-content">
+          <div>
+            <img src="./img/projetos/animais-fantasticos.png" alt="animais fantasticos home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Animais Fantásticos</strong> project was developed using <strong>HTML, CSS Grid, and JavaScript</strong>.
+              It includes interactive features such as tabbed navigation, accordions, dropdown and mobile menus, smooth scroll animations, and tooltips.
+              The site also fetches dynamic content from JSON files and external APIs, showcasing event handling and optimization techniques like <strong>debounce</strong>.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Fetch API</li>
+              <li>Promises & Async</li>
+              <li>DOM Manipulation</li>
+              <li>Animations & Scroll Effects</li>
+              <li>Performance Optimization (Debounce)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-forest">Forest</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-projeto-forest" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-projeto-forest/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-forest" class="accordion-content">
+          <div>
+            <img src="./img/projetos/forest.jpg" alt="Forest home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Forest</strong> project was developed using <strong>Tailwind CSS v4</strong>, applying utility-first principles to create a responsive and cohesive interface.
+              It features custom themes, color palettes, and component styling with <code>@apply</code>, along with smooth CSS animations and layouts built using Flexbox and Grid.
+              The project focuses on clean organization, maintainability, and accessibility while following modern front-end best practices.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>Tailwind CSS v4</li>
+              <li>Utility-first Design</li>
+              <li>Responsive Layout</li>
+              <li>Custom Themes & Colors</li>
+              <li>Flexbox & Grid</li>
+              <li>CSS Animations</li>
+              <li>Best Practices & Accessibility (A11y)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-bikcraft">Bikcraft</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-bikcraft" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-bikcraft/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-bikcraft" class="accordion-content">
+          <div>
+            <img src="./img/projetos/bikcraft.png" alt="Bikcraft home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Bikcraft</strong> project is a fictional e-commerce for custom bicycles and accessories.
+              Designed from prototype to code, it was developed using <strong>HTML, CSS, and JavaScript</strong> with a fully responsive layout to ensure a seamless experience across devices.
+              It includes interactive forms, animations, and user interface enhancements that demonstrate the integration between front-end development and UX/UI design.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>UI/UX Design</li>
+              <li>Responsive Design</li>
+              <li>Accessibility</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-caravan">Caravan</button>
+          <ul class=" project-links">
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-caravan/" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-caravan"> <img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-caravan" class="accordion-content">
+          <div>
+            <img src="./img/projetos/Caravan home.jpg" alt="Caravan home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Caravan</strong> project was developed using <strong>Bootstrap 4</strong> to create a modern and responsive travel agency website.
+              It demonstrates how to leverage Bootstrap’s grid system, components, and utility classes to build a professional layout quickly and efficiently.
+              The design includes navigation bars, modals, cards, and responsive sections optimized for all devices.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap 4</li>
+              <li>Responsive Design</li>
+              <li>UI Components</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-gta">GTA</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-projeto-gta" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-projeto-gta/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-gta" class="accordion-content">
+          <div>
+            <img src="./img/projetos/gta.png" alt="GTA home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>GTA</strong> project was developed using <strong>HTML, CSS, and JavaScript</strong>.
+              It demonstrates how front-end technologies can recreate an engaging and dynamic game interface directly in the browser, combining layout, animations, and user interactions.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Game Logic</li>
+              <li>Animations</li>
+              <li>Interactivity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-pokemon">Pokémon</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-projeto-pokemon" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-projeto-pokemon/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-pokemon" class="accordion-content">
+          <div>
+            <img src="./img/projetos/pokemon.png" alt="Pokémon home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Pokémon</strong> project was built using <strong>HTML, CSS, and JavaScript</strong> to create an interactive experience inspired by the classic game.
+              It showcases front-end development skills through the use of animations, data manipulation, and clean responsive design.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Animations</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-flexblog">FlexBlog</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-flexblog" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-flexblog/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-flexblog" class="accordion-content">
+          <div>
+            <img src="./img/projetos/flexblog.png" alt="FlexBlog home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>FlexBlog</strong> project was created using <strong>CSS Flexbox</strong> to design a fully responsive layout that adapts smoothly across all devices.
+              It emphasizes clean structure, spacing balance, and semantic HTML to build a flexible, professional website layout.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive Design</li>
+              <li>Clean Layout</li>
+              <li>Best Practices</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-wildbeast">Wildbeast</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-wildbeast" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-wildbeast/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-wildbeast" class="accordion-content">
+          <div>
+            <img src="./img/projetos/wildbeast.png" alt="Wildbeast home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Wildbeast</strong> project was developed using <strong>CSS Grid Layout</strong> to build a responsive, visually organized interface.
+              It demonstrates how grid systems can create complex yet consistent designs while maintaining adaptability and readability on any device.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive Design</li>
+              <li>Semantic Structure</li>
+              <li>Modern Layout Techniques</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-agencia">Agência XYZ</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-projeto-agencia" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-projeto-agencia/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-agencia" class="accordion-content">
+          <div>
+            <img src="./img/projetos/agencia xyz.png" alt="Agência XYZ home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Agência XYZ</strong> project was built with <strong>HTML and CSS</strong>, focusing on layout design through <strong>Flexbox</strong> and <strong>Grid</strong>.
+              The result is a modern, balanced interface that demonstrates strong visual hierarchy and usability principles.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive Design</li>
+              <li>UI Layout</li>
+              <li>Usability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <button class="project-title" aria-expanded="false" aria-controls="project-lobo">Lobo</button>
+          <ul class="project-links">
+            <li><a href="https://github.com/bmoreto/bmoreto.github.io-lobo" target="_blank"><img src="./img/icones/icones/github-142-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+            <li><a href="https://bmoreto.github.io/bmoreto.github.io-lobo/" target="_blank"><img src="./img/icones/icones/website-home-page-svgrepo-com.svg" alt="github" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        <div id="project-lobo" class="accordion-content">
+          <div>
+            <img src="./img/projetos/lobo.png" alt="Lobo home">
+          </div>
+          <div class="project-description">
+            <p>
+              The <strong>Lobo</strong> project was designed in <strong>Figma</strong> and developed using <strong>HTML and CSS</strong> with a responsive layout.
+              It integrates design and development to deliver a cohesive experience, focusing on accessibility, visual balance, and typography hierarchy.
+            </p>
+            <ul class="project-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>UI/UX Design</li>
+              <li>Responsive Layout</li>
+              <li>Design to Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer-bg" id="contact">
+    <div class="footer container">
+      <div class="footer-info">
+        <p>I'm currently open to new opportunities and collaborations.</p>
+        <p>Feel free to reach out — let's create something great together!</p>
+      </div>
+      <div class="footer-contact">
+        <ul class="footer-list-contact">
+          <li>+353 89 959 9774 <img src="./img/icones/icones-branco/whatsapp-128-svgrepo-com.svg" width="20px" height="20px" alt="icone whatsapp"></li>
+          <li>bmoreto <img src="./img/icones/icones-branco/github-142-svgrepo-com.svg" width="20px" height="20px" alt="icone github"></li>
+          <li>beatriz_moreto@hotmail.com <img src="./img/icones/icones-branco/email-14-svgrepo-com.svg" width="20px" height="20px" alt="icone email"></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/script.js"></script>
+
+
+</body>
+
+</html>

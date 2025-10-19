@@ -1,0 +1,52 @@
+.footer-bg{
+  background-color: var(--b);
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  align-items: center;
+}
+
+.footer::before {
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 100px;
+  background: url(../img/decoracao/deco.svg) no-repeat center;
+  top: -50px;
+  left: -20px;
+}
+
+.footer-contact{
+  justify-items: end;
+  text-align: end;
+}
+
+.footer-contact li{
+display: flex;
+flex-wrap: wrap;
+justify-content: end;
+gap: 10px;
+margin-bottom: 10px;
+}
+
+@media(max-width:960px){
+  .footer::before {
+  display: none;
+  }
+}
+
+@media(max-width:680px){
+  .footer{
+  grid-template-columns: 1fr;
+  gap: 20px;
+  }
+  .footer-contact{
+  justify-items: center;
+  }
+  .footer-contact li{
+  justify-content: center;
+  }
+}

@@ -1,0 +1,103 @@
+:root {
+  --w: #ffffff;
+  --b: #000000;
+  --c1: #f5f5f5;
+  --c2: #f0f0f0;
+  --c10: #525252;
+  --c11: #8f8f8f;
+  --c12: #292929;
+  --c13: #141414;
+  --p1: #8844ee;
+  --p2: #b07dfb;
+  --gradiente: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.title{
+  color: var(--p1);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+
+.subtitle{
+  color: var(--c11);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 2rem;
+}
+
+.menu-list{
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.intro p{
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.title-section{
+  color: var(--p1);
+  font-family: "Playfair Display";
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.project-title{
+  color: var(--b);
+  font-family: "Fira Sans";
+  font-size: 2rem;
+}
+
+.project-intro{
+  color: var(--c13, #141414);
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+}
+
+.project-description{
+  color: var(--c13);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.footer{
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+@media(max-width: 680px){
+.title{
+  font-size: 3rem;
+}
+.subtitle{
+  font-size: 1.5rem;
+  }
+.title-section{
+  font-size: 3rem;
+}
+.intro p{
+  font-size: 1.5rem;
+  }
+}
+
+@media(max-width:480px){
+  .project-title {
+    font-size: 1.5rem;
+  }
+}

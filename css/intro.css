@@ -1,0 +1,15 @@
+.intro-bg{
+  background: var(--b);
+}
+
+
+.intro{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+
+

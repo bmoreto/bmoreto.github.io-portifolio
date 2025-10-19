@@ -1,0 +1,36 @@
+.header-bg{
+  background: var(--c1);
+}
+
+.menu-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 5px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.menu-list li {
+  background: var(--p1);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.menu-list li:hover {
+  background: var(--p2);
+  transition: 0.3s;
+}
+
+@media(max-width: 680px){
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-info{
+  margin-left: 40px;
+  }
+  .menu{
+    align-content: end;
+  }
+}
