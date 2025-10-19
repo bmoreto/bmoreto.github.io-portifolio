@@ -71,7 +71,7 @@
   color: white;
   width: 40px;
   height: 40px;
-  background: var(--p1) url("/img/icones/icones/arrow.svg") center center no-repeat;
+  background: var(--p1) url("../img/icones/icones/arrow.svg") center center no-repeat;
 }
 
 .arrow-nav button.prev {
