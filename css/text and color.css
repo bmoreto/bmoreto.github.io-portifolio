@@ -56,6 +56,7 @@
   color: var(--b);
   font-family: "Fira Sans";
   font-size: 2rem;
+  line-height: 1.4;
 }
 
 .project-intro{
@@ -96,8 +97,17 @@
   }
 }
 
+@media(max-width:540px){
+.subtitle{
+  display: none;
+}
+}
+
 @media(max-width:480px){
   .project-title {
     font-size: 1.5rem;
+  }
+  .title{
+  font-size: 2rem;
   }
 }

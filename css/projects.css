@@ -96,6 +96,9 @@
 }
 
 @media(max-width:480px){
+  .project-title::before {
+  display: none;
+  }
 .accordion-item{
   padding: 10px;
  }

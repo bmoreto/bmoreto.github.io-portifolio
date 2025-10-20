@@ -34,3 +34,9 @@
     align-content: end;
   }
 }
+
+@media(max-width: 460px){
+   .header-info{
+  margin-left: 0px;
+  }
+}
