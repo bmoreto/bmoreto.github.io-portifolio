@@ -1,8 +1,6 @@
 .slide-wrapper {
   overflow: hidden;
   cursor: grab;
-  width: 100%;
-  display: block;
  }
 
  .slide-wrapper:active {
@@ -11,8 +9,6 @@
 
 .slide {
   display: flex;
-  gap: 40px;
-  padding: 0 20px;
 }
 
 .slide:hover {
@@ -23,23 +19,13 @@
   flex-shrink: 0;
   width: 80vw;
   max-width: 800px;
-  margin: 0;
+  margin: 0 20px;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.4);
   opacity: .8;
   transform: scale(.8);
   transition: .4s;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform-origin: center center;
-}
-
-.slide li img {
-  width: 100%;
-  display: block;
 }
 
 .slide li.active {
@@ -85,8 +71,7 @@
   color: white;
   width: 40px;
   height: 40px;
-  background: var(--p1) url("../img/icones/icones/arrow.svg") center center no-repeat;
-  background-size: 18px 18px;
+  background: var(--p1) url("/img/icones/icones/arrow.svg") center center no-repeat;
 }
 
 .arrow-nav button.prev {
@@ -94,7 +79,7 @@
 }
 
 @media(max-width: 680px){
-  .custom-controls{
+.custom-controls{
   display: none;
-  }
+}
 }

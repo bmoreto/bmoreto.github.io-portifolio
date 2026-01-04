@@ -1,85 +1,9 @@
-.featured-projects .slide {
-  gap: 40px;
-}
-
-.featured-projects .slide li {
-  margin: 0;
-}
-
-
 .featured-projects{
   background: var(--b);
 }
 
 .featured-project-intro{
 margin-bottom: 20px;
-}
-
-.featured-slide {
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.featured-slide img {
-  display: block;
-  width: 100%;
-}
-
-.featured-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.25)
-  );
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 10px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.featured-slide:hover .featured-overlay {
-  opacity: 1;
-}
-
-.featured-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.featured-description {
-  font-size: 0.85rem;
-  line-height: 1.4;
-}
-
-.featured-links {
-  display: flex;
-  gap: 12px;
-}
-
-.featured-links a {
-  font-size: 0.75rem;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  transition: background 0.2s ease;
-}
-
-.featured-links a:hover {
-  background: #8844ee;
-}
-
-@media (max-width: 768px) {
-  .featured-overlay {
-    opacity: 1;
-  }
 }
 
 
