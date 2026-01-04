@@ -38,7 +38,7 @@
 }
 
 .intro p{
-  color: var(--w);
+  color: var(--b);
   text-align: center;
   font-family: "Fira Sans";
   font-size: 2rem;
@@ -50,6 +50,18 @@
   font-family: "Playfair Display";
   font-size: 4rem;
   font-weight: 600;
+}
+
+.featured-project-intro{
+  color: var(--w);
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+}
+
+.slide{
+  color: var(--w);
+    font-family: "Fira Sans";
+  font-size: 1rem;
 }
 
 .project-title{
